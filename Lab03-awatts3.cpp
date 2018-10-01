@@ -55,11 +55,12 @@ int main()
 		
 		for (int i=1;i<=n;i++) 
 		{
-			nverse = 1 / i;
+			nverse = 1 / n;
 			total = total + nverse;
 		}
 		total = total - 1.0;
 		cout << "The sum for " << n << " values:" << total << endl;
+		total = 0;
 	}
 	system("pause");
 	return(0);
