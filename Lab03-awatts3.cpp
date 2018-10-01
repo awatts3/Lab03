@@ -47,11 +47,19 @@ int main()
 	//step 6 
 	while (n >= 0)
 	{
-		float nverse(); //inverse of n, get it?
+		float nverse(1); //inverse of n, get it?
+		float total(0); //since sum is already the name of something
 		cout << "Input an 'n' sum the 1/n values of: (0 or negative number to end)" << endl;
 		cin >> n;
 		if (n <= 0) { break; }
-
+		
+		for (int i=1;i<=n;i++) 
+		{
+			nverse = 1 / i;
+			total = total + nverse;
+		}
+		total = total - 1.0;
+		cout << "The sum for " << n << " values:" << total << endl;
 	}
 	system("pause");
 	return(0);
