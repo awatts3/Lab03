@@ -78,5 +78,52 @@ step 5:
     
 		
 step 6:
+
+with a float type:
+
+The sum - 1 for 9 values:0
+
+Input an 'n' sum the 1/n values of: (0 or negative number to end)
+10
+
+The sum - 1 for 10 values:1.19209e-07
+
+n of 10 gives a wrong answer. I think this is because data types only store so many decimal places so the computer can only store values that are close to the actual value. Logicaly the answer should be zero but the program gives a very small number because the sum couldn't add to exatly 0
     
+with a double type:
+
+Input an 'n' sum the 1/n values of: (0 or negative number to end)
+8
+
+The sum - 1 for 8 values:0
+
+Input an 'n' sum the 1/n values of: (0 or negative number to end)
+9
+
+The sum - 1 for 9 values:2.22045e-16
+
+an input of 9 gives a wrong answer. the reason for error is the same as above but this 'wrong' answer is much closer to zero because doubles store more decimal places than floats
+
+
+step 7.
+
+the given code outputs:
+
+i = 3.4
+i = 3.6
+i = 3.8
+i = 4
+i = 4.2
+i = 4.4
+
+step 8:
+
+the given code outputs:
+
+i = 3.4
+i = 3.6
+i = 3.8
+i = 4
+i = 4.2
+
   
