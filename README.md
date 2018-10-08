@@ -110,20 +110,32 @@ step 7.
 the given code outputs:
 
 i = 3.4
+
 i = 3.6
+
 i = 3.8
+
 i = 4
+
 i = 4.2
+
 i = 4.4
+
+The error is that it is printing out 4.4 when this value should stop the loop. I'm not sure what the reason is but when i is a float it isn't recognized as being  equal to 4.4 by the for loop even though it prints a value of 4.4. Aparently a float 4.4 is seen as less than 4.4 by the computer.
 
 step 8:
 
 the given code outputs:
 
 i = 3.4
+
 i = 3.6
+
 i = 3.8
+
 i = 4
+
 i = 4.2
 
+with a double the error does not occur as the program stops before 4.4 is printed
   
